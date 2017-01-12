@@ -30,7 +30,25 @@ class PokemonDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLbl.text = pokemon.name
+        
+        pokemon.dowloadPokemonDetail {
+   
+            //be called after network call is complete
+            self.updateUI()
+        }
+    
     }
+    
+    func updateUI() {
+        
+        attackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
+        
+    }
+    
     @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
