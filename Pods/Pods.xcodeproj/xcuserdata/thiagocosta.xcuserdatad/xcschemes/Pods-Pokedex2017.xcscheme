@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FB66DBE1E1D614700B4A8FA"
-               BuildableName = "Pokedex2017.app"
-               BlueprintName = "Pokedex2017"
-               ReferencedContainer = "container:Pokedex2017.xcodeproj">
+               BlueprintIdentifier = "3AE9C88EA37ADFFCDE6CC1CC9952432F"
+               BuildableName = "Pods_Pokedex2017.framework"
+               BlueprintName = "Pods-Pokedex2017"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FB66DBE1E1D614700B4A8FA"
-            BuildableName = "Pokedex2017.app"
-            BlueprintName = "Pokedex2017"
-            ReferencedContainer = "container:Pokedex2017.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,23 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FB66DBE1E1D614700B4A8FA"
-            BuildableName = "Pokedex2017.app"
-            BlueprintName = "Pokedex2017"
-            ReferencedContainer = "container:Pokedex2017.xcodeproj">
+            BlueprintIdentifier = "3AE9C88EA37ADFFCDE6CC1CC9952432F"
+            BuildableName = "Pods_Pokedex2017.framework"
+            BlueprintName = "Pods-Pokedex2017"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2FB66DBE1E1D614700B4A8FA"
-            BuildableName = "Pokedex2017.app"
-            BlueprintName = "Pokedex2017"
-            ReferencedContainer = "container:Pokedex2017.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

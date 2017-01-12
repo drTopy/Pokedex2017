@@ -161,10 +161,10 @@ class Pokemon {
                         self._defense = "\(defense)"
                     }
                     
-                    print(self._weight)
-                    print(self._height)
-                    print(self._attack)
-                    print(self._defense)
+                  //  print(self._weight)
+                   // print(self._height)
+                    //print(self._attack)
+                    //print(self._defense)
                     
                     if let types = dict["types"] as? [Dictionary<String, String>] , types.count > 0 {
                         
@@ -184,7 +184,7 @@ class Pokemon {
                             }
                         }
                         
-                        print(self._type)
+                       // print(self._type)
                         
                     } else {
                         
@@ -206,7 +206,7 @@ class Pokemon {
                                         let newDescription = description.replacingOccurrences(of: "POKMON", with: "Pokemon")
                                         
                                         self._description = newDescription
-                                        print(newDescription)
+                                      //  print(newDescription)
                                     }
                                 }
                                 
@@ -251,10 +251,10 @@ class Pokemon {
                             
                         }
                         
-                        print(self.nextEvolutionLevel)
-                        print(self.nextEvolutionName)
-                        print(self.nextEvolutionId)
-                    }
+                       // print(self.nextEvolutionLevel)
+                      //  print(self.nextEvolutionName)
+                      //  print(self.nextEvolutionId)
+                    }//
                     
                     
                 }
